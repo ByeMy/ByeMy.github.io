@@ -171,7 +171,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p><img src="/2017/10/25/My-New-Blog/f/myblog/source/images/boke.jpg" alt="boke"><br>想要在文章中插入图片的话，可以按照Markdown语法来插入，格式为<img src="/2017/10/25/My-New-Blog/图片地址" alt="图片名称">。图片的存放有两种方式：在本地D:\Hexo\source<code>目录下新建一个存放图片的文件夹，比如images</code>，然后把想要插入的图片放在里面，插入图片的路径；第二种方法是把图片上传到网络，然后插入图片路径。推荐使用第二种。<br>　　推荐两个比较好用的：</p>
+
       
 
       
@@ -179,6 +180,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">博客</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -375,6 +387,10 @@ getOwnMetadataKeys:function(t){return o(i(t),arguments.length<2?void 0:u(argumen
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">博客</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
